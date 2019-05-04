@@ -6,7 +6,7 @@
   "author": "Dario Dentale <dario.dentale@digitaliasistemi.it>",
   "license": "MIT",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build"
   },
   "devDependencies": {},
   "dependencies": {
