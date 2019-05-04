@@ -1,0 +1,21 @@
+{
+  "name": "www.ascesa.it",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitlab.digitalia.cloud/ascesa/www/www.ascesa.it.git",
+  "author": "Dario Dentale <dario.dentale@digitaliasistemi.it>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "clean-css": "^4.2.1",
+    "gulp": "^4.0.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-clean-css": "^6.0.0",
+    "metalsmith-html-minifier": "^3.0.0",
+    "metalsmith-imagemin": "^4.1.1",
+    "metalsmith-js-packer": "^0.2.0"
+  }
+}
